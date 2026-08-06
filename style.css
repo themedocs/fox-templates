@@ -1,0 +1,67 @@
+/* Fox templates directory. Inlined into every page at build time — keep it small.
+   System fonts only, no JS, no webfonts. --a is the accent. */
+
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1a1a1a;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#06c;text-decoration:none}
+a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:.5em;top:.5em;z-index:9;background:#fff;padding:.4em .8em;border:1px solid #999}
+
+/* top bar ---------------------------------------------------------------- */
+.bar{display:flex;align-items:center;gap:.8em;padding:.7em 1.2em;border-bottom:1px solid #e3e3e3;position:sticky;top:0;background:#fff;z-index:5}
+.bar .brand{color:#000;font-weight:600}
+.bar .brand span{color:#999;font-weight:400}
+.bar-links{margin-left:auto;display:flex;gap:1.1em;font-size:.9em}
+.jump{display:none}
+
+/* two columns ------------------------------------------------------------ */
+.wrap{display:grid;grid-template-columns:14em minmax(0,1fr);gap:2.6em;max-width:84em;margin:0 auto;padding:2.2em 1.4em 4em;align-items:start}
+main{grid-column:2;min-width:0}
+.side{grid-column:1;grid-row:1;position:sticky;top:4.2em;max-height:calc(100vh - 6em);overflow-y:auto;font-size:.875em;line-height:1.75}
+
+/* left nav --------------------------------------------------------------- */
+.side a{display:block;color:#444;padding:.1em 0}
+.side a:hover{color:#06c;text-decoration:none}
+.side a.on{color:#000;font-weight:600;box-shadow:-.7em 0 0 -.55em var(--a)}
+.side a i{font-style:normal;color:#bbb;font-size:.9em}
+.side b{display:block;color:#999;font-size:.82em;text-transform:uppercase;letter-spacing:.06em;margin:1.5em 0 .3em;font-weight:600}
+.side b:first-of-type{margin-top:.8em}
+.side-home{font-weight:600;color:#000!important}
+
+/* page head -------------------------------------------------------------- */
+.crumbs{font-size:.82em;color:#999;margin-bottom:1.1em;display:flex;gap:.5em;flex-wrap:wrap}
+.crumbs a::after,.crumbs span:not(:last-child)::after{content:" ›";color:#ccc}
+h1{font-size:2em;line-height:1.25;margin:0 0 .4em;letter-spacing:-.01em}
+.lede{color:#555;margin:0;max-width:42em}
+.lede a{text-decoration:underline;text-underline-offset:2px;text-decoration-color:#bcd}
+.count{color:#999;font-size:.9em;margin:.9em 0 0}
+
+/* the grid --------------------------------------------------------------- */
+/* Columns, not grid: screenshots vary from 2:1 to 4:3, and grid rows all
+   stretch to the tallest card in the row and leave gaps underneath. */
+.grid{column-count:3;column-gap:1.8em;margin-top:1.8em}
+.t{break-inside:avoid;margin:0 0 2em}
+.t img{display:block;width:100%;height:auto;border:1px solid #e3e3e3;background:#fafafa}
+.t .shot:hover img{border-color:var(--a)}
+.t h2{font-size:.98em;font-weight:600;margin:.6em 0 .1em;letter-spacing:0}
+.t h2 a{color:#000}
+.t .meta{margin:0;font-size:.82em;color:#bbb}
+.t .meta a{color:#888}
+.t .dl{margin:.35em 0 0;font-size:.85em}
+.t .dl a{border:1px solid #e3e3e3;padding:.2em .7em;display:inline-block;color:#444}
+.t .dl a:hover{border-color:var(--a);color:#000;text-decoration:none}
+
+.foot{border-top:1px solid #eee;padding:1.4em;text-align:center;font-size:.85em;color:#999}
+
+/* mobile ----------------------------------------------------------------- */
+@media(max-width:72em){.grid{column-count:2}}
+@media(max-width:64em){
+  .wrap{grid-template-columns:minmax(0,1fr);gap:0;padding:1.4em 1.1em 3em}
+  main{grid-column:1}
+  .grid{column-count:1;max-width:30em}
+  .side{grid-column:1;grid-row:2;position:static;max-height:none;margin-top:3em;padding-top:1.4em;border-top:1px solid #eee;font-size:1em;line-height:2}
+  .side a.on{box-shadow:none;color:#000}
+  .jump{display:inline;margin-left:auto;font-size:.9em}
+  .bar-links{display:none}
+}

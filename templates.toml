@@ -1,0 +1,1002 @@
+# Every template in the directory, newest first — the order the cards appear in.
+# `widget_id` + `demo` are what build the preview and (regenerated) export URLs;
+# the exported file itself is committed at docs/files/<slug>.json.
+
+[[template]]
+title     = "Section of Interior"
+slug      = "section-of-interior"
+cat       = "section"
+demo      = "interior"
+widget_id = "h2-section_64b94a915f5e833"
+builder   = "sectionlist"
+image     = "section-of-interior.jpg"
+
+[[template]]
+title     = "Post carousel of Paris"
+slug      = "post-carousel-of-paris"
+cat       = "post-carousel"
+demo      = "paris"
+widget_id = "widget56--id--14"
+builder   = "sectionlist"
+image     = "post-carousel-of-paris.jpg"
+
+[[template]]
+title     = "Post grid of Paper"
+slug      = "post-grid-of-paper"
+cat       = "post-grid"
+demo      = "paper"
+widget_id = "legacy-667161c541367"
+builder   = "sectionlist"
+image     = "post-grid-of-paper.jpg"
+
+[[template]]
+title     = "Post carousel of Pine"
+slug      = "post-carousel-of-pine"
+cat       = "post-carousel"
+demo      = "pine"
+widget_id = "legacy-667161c2ac892"
+builder   = "sectionlist"
+image     = "post-carousel-of-pine.jpg"
+
+[[template]]
+title     = "Post grid of John"
+slug      = "post-grid-of-john"
+cat       = "post-grid"
+demo      = "john"
+widget_id = "legacy-667161c472327"
+builder   = "sectionlist"
+image     = "post-grid-of-john.jpg"
+
+[[template]]
+title     = "Post grid of Clean"
+slug      = "post-grid-of-clean"
+cat       = "post-grid"
+demo      = "clean"
+widget_id = "legacy-667161cde3571"
+builder   = "sectionlist"
+image     = "post-grid-of-clean.jpg"
+
+[[template]]
+title     = "Post carousel of Nordic"
+slug      = "post-carousel-of-nordic"
+cat       = "post-carousel"
+demo      = "nordic"
+widget_id = "legacy-667161d570ac4"
+builder   = "sectionlist"
+image     = "post-carousel-of-nordic.jpg"
+
+[[template]]
+title     = "Post group of Food"
+slug      = "post-group-of-food"
+cat       = "post-group"
+demo      = "food"
+widget_id = "legacy-6671690f93fc8"
+builder   = "sectionlist"
+image     = "post-group-of-food.jpg"
+
+[[template]]
+title     = "Post grid of Food"
+slug      = "post-grid-of-food"
+cat       = "post-grid"
+demo      = "food"
+widget_id = "legacy-6671690f93d36"
+builder   = "sectionlist"
+image     = "post-grid-of-food.jpg"
+
+[[template]]
+title     = "Post carousel of Massa"
+slug      = "post-carousel-of-massa"
+cat       = "post-carousel"
+demo      = "massa"
+widget_id = "legacy-667161caa7ce3"
+builder   = "sectionlist"
+image     = "post-carousel-of-massa.jpg"
+
+[[template]]
+title     = "Post carousel of Interior"
+slug      = "post-carousel-of-interior"
+cat       = "post-carousel"
+demo      = "interior"
+widget_id = "legacy-667161d2ab593"
+builder   = "sectionlist"
+image     = "post-carousel-of-interior.jpg"
+
+[[template]]
+title     = "Post group of Science"
+slug      = "post-group-of-science"
+cat       = "post-group"
+demo      = "science"
+widget_id = "legacy-667161c056483"
+builder   = "sectionlist"
+image     = "post-group-of-science.jpg"
+
+[[template]]
+title     = "Post group of Los Angeles"
+slug      = "post-group-of-los-angeles"
+cat       = "post-group"
+demo      = "los-angeles"
+widget_id = "widget56--id--19"
+builder   = "sectionlist"
+image     = "post-group-of-los-angeles.jpg"
+
+[[template]]
+title     = "Authors of Los Angeles"
+slug      = "authors-of-los-angeles"
+cat       = "authors"
+demo      = "los-angeles"
+widget_id = "widget56--id--26"
+builder   = "sectionlist"
+image     = "authors-of-los-angeles.jpg"
+
+[[template]]
+title     = "Post grid of Travel"
+slug      = "post-grid-of-travel"
+cat       = "post-grid"
+demo      = "travel"
+widget_id = "legacy-667162597b3e9"
+builder   = "sectionlist"
+image     = "post-grid-of-travel.jpg"
+
+[[template]]
+title     = "Post carousel of Deodar"
+slug      = "post-carousel-of-deodar"
+cat       = "post-carousel"
+demo      = "deodar"
+widget_id = "legacy-667161cf011f5"
+builder   = "sectionlist"
+image     = "post-carousel-of-deodar.jpg"
+
+[[template]]
+title     = "Post group of Hawaii"
+slug      = "post-group-of-hawaii"
+cat       = "post-group"
+demo      = "hawaii"
+widget_id = "legacy-667161aaddfda"
+builder   = "sectionlist"
+image     = "post-group-of-hawaii.jpg"
+
+[[template]]
+title     = "Post carousel of Travel"
+slug      = "post-carousel-of-travel"
+cat       = "post-carousel"
+demo      = "travel"
+widget_id = "legacy-667162597b193"
+builder   = "sectionlist"
+image     = "post-carousel-of-travel.jpg"
+
+[[template]]
+title     = "Post group of Bern"
+slug      = "post-group-of-bern"
+cat       = "post-group"
+demo      = "bern2"
+widget_id = "legacy-667161bed4344"
+builder   = "sectionlist"
+image     = "post-group-of-bern.jpg"
+
+[[template]]
+title     = "Post carousel of Los Angeles"
+slug      = "post-carousel-of-los-angeles"
+cat       = "post-carousel"
+demo      = "los-angeles"
+widget_id = "widget56--id--10"
+builder   = "sectionlist"
+image     = "post-carousel-of-los-angeles.jpg"
+
+[[template]]
+title     = "Post list of Los Angeles"
+slug      = "post-list-of-los-angeles"
+cat       = "post-list"
+demo      = "los-angeles"
+widget_id = "widget56--id--14"
+builder   = "sectionlist"
+image     = "post-list-of-los-angeles.jpg"
+
+[[template]]
+title     = "Post grid of London"
+slug      = "post-grid-of-london"
+cat       = "post-grid"
+demo      = "london"
+widget_id = "widget56--id--15"
+builder   = "sectionlist"
+image     = "post-grid-of-london.jpg"
+
+[[template]]
+title     = "Post list of Los Angeles"
+slug      = "post-list-of-los-angeles-2"
+cat       = "post-list"
+demo      = "los-angeles"
+widget_id = "widget56--id--5"
+builder   = "sectionlist"
+image     = "post-list-of-los-angeles-2.jpg"
+
+[[template]]
+title     = "Section of Square"
+slug      = "section-of-square"
+cat       = "section"
+demo      = "square"
+widget_id = "h2-section_64b93e1c3c27144"
+builder   = "sectionlist"
+image     = "section-of-square.jpg"
+
+[[template]]
+title     = "Post group of London"
+slug      = "post-group-of-london"
+cat       = "post-group"
+demo      = "london"
+widget_id = "widget56--id--19"
+builder   = "sectionlist"
+image     = "post-group-of-london.jpg"
+
+[[template]]
+title     = "Section of London"
+slug      = "section-of-london"
+cat       = "section"
+demo      = "london"
+widget_id = "widget56--id--16"
+builder   = "sectionlist"
+image     = "section-of-london.jpg"
+
+[[template]]
+title     = "Post grid of London"
+slug      = "post-grid-of-london-2"
+cat       = "post-grid"
+demo      = "london"
+widget_id = "widget56--id--10"
+builder   = "sectionlist"
+image     = "post-grid-of-london-2.jpg"
+
+[[template]]
+title     = "Section of London"
+slug      = "section-of-london-2"
+cat       = "section"
+demo      = "london"
+widget_id = "widget56--id--6"
+builder   = "sectionlist"
+image     = "section-of-london-2.jpg"
+
+[[template]]
+title     = "Post grid of London"
+slug      = "post-grid-of-london-3"
+cat       = "post-grid"
+demo      = "london"
+widget_id = "widget56--id--4"
+builder   = "sectionlist"
+image     = "post-grid-of-london-3.jpg"
+
+[[template]]
+title     = "Post list of London"
+slug      = "post-list-of-london"
+cat       = "post-list"
+demo      = "london"
+widget_id = "widget56--id--2"
+builder   = "sectionlist"
+image     = "post-list-of-london.jpg"
+
+[[template]]
+title     = "Post list of Commentary"
+slug      = "post-list-of-commentary"
+cat       = "post-list"
+demo      = "commentary"
+widget_id = "legacy-667161c1db1f1"
+builder   = "sectionlist"
+image     = "post-list-of-commentary.jpg"
+
+[[template]]
+title     = "Post list of Commentary"
+slug      = "post-list-of-commentary-2"
+cat       = "post-list"
+demo      = "commentary"
+widget_id = "widget56--id--2"
+builder   = "sectionlist"
+image     = "post-list-of-commentary-2.jpg"
+
+[[template]]
+title     = "Post list of Guard"
+slug      = "post-list-of-guard"
+cat       = "post-list"
+demo      = "guard2"
+widget_id = "widget56--id--93"
+builder   = "sectionlist"
+image     = "post-list-of-guard.jpg"
+
+[[template]]
+title     = "Section of Guard"
+slug      = "section-of-guard"
+cat       = "section"
+demo      = "guard2"
+widget_id = "widget56--id--72"
+builder   = "sectionlist"
+image     = "section-of-guard.jpg"
+
+[[template]]
+title     = "Section of Guard"
+slug      = "section-of-guard-2"
+cat       = "section"
+demo      = "guard2"
+widget_id = "widget56--id--42"
+builder   = "sectionlist"
+image     = "section-of-guard-2.jpg"
+
+[[template]]
+title     = "Section of Guard"
+slug      = "section-of-guard-3"
+cat       = "section"
+demo      = "guard2"
+widget_id = "widget56--id--12"
+builder   = "sectionlist"
+image     = "section-of-guard-3.jpg"
+
+[[template]]
+title     = "Section of Guard"
+slug      = "section-of-guard-4"
+cat       = "section"
+demo      = "guard2"
+widget_id = "widget56--id--1"
+builder   = "sectionlist"
+image     = "section-of-guard-4.jpg"
+
+[[template]]
+title     = "Section of Time"
+slug      = "section-of-time"
+cat       = "section"
+demo      = "time5"
+widget_id = "h2-h__section_64e5ad6e7b2e3_20"
+builder   = "sectionlist"
+image     = "section-of-time.jpg"
+
+[[template]]
+title     = "Section of Time"
+slug      = "section-of-time-2"
+cat       = "section"
+demo      = "time5"
+widget_id = "h2-h__section_64e5ba4e01e9b_1"
+builder   = "sectionlist"
+image     = "section-of-time-2.jpg"
+
+[[template]]
+title     = "Post group of Time"
+slug      = "post-group-of-time"
+cat       = "post-group"
+demo      = "time5"
+widget_id = "legacy-667161bcc5581"
+builder   = "sectionlist"
+image     = "post-group-of-time.jpg"
+
+[[template]]
+title     = "Section of Time"
+slug      = "section-of-time-3"
+cat       = "section"
+demo      = "time5"
+widget_id = "h2-h__section_658053b7cc455_1"
+builder   = "sectionlist"
+image     = "section-of-time-3.jpg"
+
+[[template]]
+title     = "Section of Time"
+slug      = "section-of-time-4"
+cat       = "section"
+demo      = "time5"
+widget_id = "h2-h__section_64e737234ec02_1"
+builder   = "sectionlist"
+image     = "section-of-time-4.jpg"
+
+[[template]]
+title     = "Post grid of Time"
+slug      = "post-grid-of-time"
+cat       = "post-grid"
+demo      = "time5"
+widget_id = "legacy-667161bcc4bdb"
+builder   = "sectionlist"
+image     = "post-grid-of-time.jpg"
+
+[[template]]
+title     = "Post list of Street"
+slug      = "post-list-of-street"
+cat       = "post-list"
+demo      = "street"
+widget_id = "legacy-667161bd76bce"
+builder   = "sectionlist"
+image     = "post-list-of-street.jpg"
+
+[[template]]
+title     = "Post group of Street"
+slug      = "post-group-of-street"
+cat       = "post-group"
+demo      = "street"
+widget_id = "widget56--id--19"
+builder   = "sectionlist"
+image     = "post-group-of-street.jpg"
+
+[[template]]
+title     = "Post group of Street"
+slug      = "post-group-of-street-2"
+cat       = "post-group"
+demo      = "street"
+widget_id = "widget56--id--18"
+builder   = "sectionlist"
+image     = "post-group-of-street-2.jpg"
+
+[[template]]
+title     = "Post grid of Street"
+slug      = "post-grid-of-street"
+cat       = "post-grid"
+demo      = "street"
+widget_id = "widget56--id--8"
+builder   = "sectionlist"
+image     = "post-grid-of-street.jpg"
+
+[[template]]
+title     = "Post group of Street"
+slug      = "post-group-of-street-3"
+cat       = "post-group"
+demo      = "street"
+widget_id = "legacy-667161bd75460"
+builder   = "sectionlist"
+image     = "post-group-of-street-3.jpg"
+
+[[template]]
+title     = "Section of Classic"
+slug      = "section-of-classic"
+cat       = "section"
+demo      = "classic"
+widget_id = "h2-section_64a7f581a9d0b44"
+builder   = "sectionlist"
+image     = "section-of-classic.jpg"
+
+[[template]]
+title     = "Post carousel of Classic"
+slug      = "post-carousel-of-classic"
+cat       = "post-carousel"
+demo      = "classic"
+widget_id = "widget56--id--14"
+builder   = "sectionlist"
+image     = "post-carousel-of-classic.jpg"
+
+[[template]]
+title     = "Section of Classic"
+slug      = "section-of-classic-2"
+cat       = "section"
+demo      = "classic"
+widget_id = "h2-section_64a7f581a9d0b22"
+builder   = "sectionlist"
+image     = "section-of-classic-2.jpg"
+
+[[template]]
+title     = "Post grid of Classic"
+slug      = "post-grid-of-classic"
+cat       = "post-grid"
+demo      = "classic"
+widget_id = "legacy-667161c3a3723"
+builder   = "sectionlist"
+image     = "post-grid-of-classic.jpg"
+
+[[template]]
+title     = "Section of Stockholm"
+slug      = "section-of-stockholm"
+cat       = "section"
+demo      = "stockholm"
+widget_id = "widget56--id--1"
+builder   = "sectionlist"
+image     = "section-of-stockholm.jpg"
+
+[[template]]
+title     = "Authors of Stockholm"
+slug      = "authors-of-stockholm"
+cat       = "authors"
+demo      = "stockholm"
+widget_id = "widget56--id--21"
+builder   = "sectionlist"
+image     = "authors-of-stockholm.jpg"
+
+[[template]]
+title     = "Post list of Stockholm"
+slug      = "post-list-of-stockholm"
+cat       = "post-list"
+demo      = "stockholm"
+widget_id = "widget56--id--18"
+builder   = "sectionlist"
+image     = "post-list-of-stockholm.jpg"
+
+[[template]]
+title     = "Section of Stockholm"
+slug      = "section-of-stockholm-2"
+cat       = "section"
+demo      = "stockholm"
+widget_id = "h2-section_64a7e2ab54b8422"
+builder   = "sectionlist"
+image     = "section-of-stockholm-2.jpg"
+
+[[template]]
+title     = "Post grid of Stockholm"
+slug      = "post-grid-of-stockholm"
+cat       = "post-grid"
+demo      = "stockholm"
+widget_id = "legacy-667161aa37431"
+builder   = "sectionlist"
+image     = "post-grid-of-stockholm.jpg"
+
+[[template]]
+title     = "Post group of Stockholm"
+slug      = "post-group-of-stockholm"
+cat       = "post-group"
+demo      = "stockholm"
+widget_id = "legacy-667161aa36f75"
+builder   = "sectionlist"
+image     = "post-group-of-stockholm.jpg"
+
+[[template]]
+title     = "Authors of Hague"
+slug      = "authors-of-hague"
+cat       = "authors"
+demo      = "hague"
+widget_id = "widget56--id--17"
+builder   = "sectionlist"
+image     = "authors-of-hague.jpg"
+
+[[template]]
+title     = "Post group of Hague"
+slug      = "post-group-of-hague"
+cat       = "post-group"
+demo      = "hague"
+widget_id = "legacy-667161aa37744"
+builder   = "sectionlist"
+image     = "post-group-of-hague.jpg"
+
+[[template]]
+title     = "Post grid of Hague"
+slug      = "post-grid-of-hague"
+cat       = "post-grid"
+demo      = "hague"
+widget_id = "legacy-667161aa37431"
+builder   = "sectionlist"
+image     = "post-grid-of-hague.jpg"
+
+[[template]]
+title     = "Post group of Hague"
+slug      = "post-group-of-hague-2"
+cat       = "post-group"
+demo      = "hague"
+widget_id = "legacy-667161aa36f75"
+builder   = "sectionlist"
+image     = "post-group-of-hague-2.jpg"
+
+[[template]]
+title     = "Post list of Cambridge"
+slug      = "post-list-of-cambridge"
+cat       = "post-list"
+demo      = "cambridge"
+widget_id = "widget56--id--13"
+builder   = "sectionlist"
+image     = "post-list-of-cambridge.jpg"
+
+[[template]]
+title     = "Post grid of New York"
+slug      = "post-grid-of-new-york"
+cat       = "post-grid"
+demo      = "newyork"
+widget_id = "widget56--id--48"
+builder   = "sectionlist"
+image     = "post-grid-of-new-york.jpg"
+
+[[template]]
+title     = "Post group of New York"
+slug      = "post-group-of-new-york"
+cat       = "post-group"
+demo      = "newyork"
+widget_id = "widget56--id--15"
+builder   = "sectionlist"
+image     = "post-group-of-new-york.jpg"
+
+[[template]]
+title     = "Post group of Cambridge"
+slug      = "post-group-of-cambridge"
+cat       = "post-group"
+demo      = "cambridge"
+widget_id = "widget56--id--10"
+builder   = "sectionlist"
+image     = "post-group-of-cambridge.jpg"
+
+[[template]]
+title     = "Post group of Cambridge"
+slug      = "post-group-of-cambridge-2"
+cat       = "post-group"
+demo      = "cambridge"
+widget_id = "widget56--id--2"
+builder   = "sectionlist"
+image     = "post-group-of-cambridge-2.jpg"
+
+[[template]]
+title     = "Post grid of Cambridge"
+slug      = "post-grid-of-cambridge"
+cat       = "post-grid"
+demo      = "cambridge"
+widget_id = "widget56--id--7"
+builder   = "sectionlist"
+image     = "post-grid-of-cambridge.jpg"
+
+[[template]]
+title     = "Post list of New York"
+slug      = "post-list-of-new-york"
+cat       = "post-list"
+demo      = "newyork"
+widget_id = "legacy-667161bbc04e3"
+builder   = "sectionlist"
+image     = "post-list-of-new-york.jpg"
+
+[[template]]
+title     = "Post grid of Cambridge"
+slug      = "post-grid-of-cambridge-2"
+cat       = "post-grid"
+demo      = "cambridge"
+widget_id = "widget56--id--4"
+builder   = "sectionlist"
+image     = "post-grid-of-cambridge-2.jpg"
+
+[[template]]
+title     = "Authors of New York"
+slug      = "authors-of-new-york"
+cat       = "authors"
+demo      = "newyork"
+widget_id = "widget56--id--17"
+builder   = "sectionlist"
+image     = "authors-of-new-york.jpg"
+
+[[template]]
+title     = "Section of New York"
+slug      = "section-of-new-york"
+cat       = "section"
+demo      = "newyork"
+widget_id = "widget56--id--18"
+builder   = "sectionlist"
+image     = "section-of-new-york.jpg"
+
+[[template]]
+title     = "Post grid of New York"
+slug      = "post-grid-of-new-york-2"
+cat       = "post-grid"
+demo      = "newyork"
+widget_id = "widget56--id--57"
+builder   = "sectionlist"
+image     = "post-grid-of-new-york-2.jpg"
+
+[[template]]
+title     = "Post list of New York"
+slug      = "post-list-of-new-york-2"
+cat       = "post-list"
+demo      = "newyork"
+widget_id = "widget56--id--14"
+builder   = "sectionlist"
+image     = "post-list-of-new-york-2.jpg"
+
+[[template]]
+title     = "Heading of Newspaper"
+slug      = "heading-of-newspaper"
+cat       = "heading"
+demo      = "newspaper2"
+widget_id = "legacy-667161a8eaacb"
+builder   = "sectionlist"
+image     = "heading-of-newspaper.jpg"
+
+[[template]]
+title     = "Heading of Times Writer"
+slug      = "heading-of-times-writer"
+cat       = "heading"
+demo      = "times"
+widget_id = "legacy-667161aa37413"
+builder   = "sectionlist"
+image     = "heading-of-times-writer.jpg"
+
+[[template]]
+title     = "Post group of New York"
+slug      = "post-group-of-new-york-2"
+cat       = "post-group"
+demo      = "newyork"
+widget_id = "legacy-667161bbc0df9"
+builder   = "sectionlist"
+image     = "post-group-of-new-york-2.jpg"
+
+[[template]]
+title     = "Post carousel of New York"
+slug      = "post-carousel-of-new-york"
+cat       = "post-carousel"
+demo      = "newyork"
+widget_id = "widget56--id--7"
+builder   = "sectionlist"
+image     = "post-carousel-of-new-york.jpg"
+
+[[template]]
+title     = "Post list of New York"
+slug      = "post-list-of-new-york-3"
+cat       = "post-list"
+demo      = "newyork"
+widget_id = "widget56--id--31"
+builder   = "sectionlist"
+image     = "post-list-of-new-york-3.jpg"
+
+[[template]]
+title     = "Post group of Times Writer"
+slug      = "post-group-of-times-writer"
+cat       = "post-group"
+demo      = "times"
+widget_id = "legacy-667161aa36f75"
+builder   = "sectionlist"
+image     = "post-group-of-times-writer.jpg"
+
+[[template]]
+title     = "Post list of New York"
+slug      = "post-list-of-new-york-4"
+cat       = "post-list"
+demo      = "newyork"
+widget_id = "widget56--id--33"
+builder   = "sectionlist"
+image     = "post-list-of-new-york-4.jpg"
+
+[[template]]
+title     = "Post grid of Times Writer"
+slug      = "post-grid-of-times-writer"
+cat       = "post-grid"
+demo      = "times"
+widget_id = "legacy-667161aa37431"
+builder   = "sectionlist"
+image     = "post-grid-of-times-writer.jpg"
+
+[[template]]
+title     = "Post carousel of Newspaper"
+slug      = "post-carousel-of-newspaper"
+cat       = "post-carousel"
+demo      = "newspaper2"
+widget_id = "legacy-667161a8eb254"
+builder   = "sectionlist"
+image     = "post-carousel-of-newspaper.jpg"
+
+[[template]]
+title     = "Post carousel of Smooth"
+slug      = "post-carousel-of-smooth"
+cat       = "post-carousel"
+demo      = "smooth"
+widget_id = "legacy-667177c79c518"
+builder   = "sectionlist"
+image     = "post-carousel-of-smooth.jpg"
+
+[[template]]
+title     = "Post list of Newspaper"
+slug      = "post-list-of-newspaper"
+cat       = "post-list"
+demo      = "newspaper2"
+widget_id = "legacy-667161a8eafed"
+builder   = "sectionlist"
+image     = "post-list-of-newspaper.jpg"
+
+[[template]]
+title     = "Post grid of Newspaper"
+slug      = "post-grid-of-newspaper"
+cat       = "post-grid"
+demo      = "newspaper2"
+widget_id = "legacy-667161a8eaaed"
+builder   = "sectionlist"
+image     = "post-grid-of-newspaper.jpg"
+
+[[template]]
+title     = "Post group of Newspaper"
+slug      = "post-group-of-newspaper"
+cat       = "post-group"
+demo      = "newspaper2"
+widget_id = "legacy-667161a8ea606"
+builder   = "sectionlist"
+image     = "post-group-of-newspaper.jpg"
+
+[[template]]
+title     = "Section of Smooth"
+slug      = "section-of-smooth"
+cat       = "section"
+demo      = "smooth"
+widget_id = "h2-section_64a7e57b23b0c11"
+builder   = "sectionlist"
+image     = "section-of-smooth.jpg"
+
+[[template]]
+title     = "Section of London"
+slug      = "section-of-london-3"
+cat       = "section"
+demo      = "london"
+widget_id = "widget56--id--1"
+builder   = "sectionlist"
+image     = "section-of-london-3.jpg"
+
+[[template]]
+title     = "Section of Los Angeles"
+slug      = "section-of-los-angeles"
+cat       = "section"
+demo      = "los-angeles"
+widget_id = "widget56--id--1"
+builder   = "sectionlist"
+image     = "section-of-los-angeles.jpg"
+
+[[template]]
+title     = "Section of Bern"
+slug      = "section-of-bern"
+cat       = "section"
+demo      = "bern2"
+widget_id = "h2-h__section_64be937ba1381_20"
+builder   = "sectionlist"
+image     = "section-of-bern.jpg"
+
+[[template]]
+title     = "Section of Commentary"
+slug      = "section-of-commentary"
+cat       = "section"
+demo      = "commentary"
+widget_id = "h2-section_64b8b68c3fcf155"
+builder   = "sectionlist"
+image     = "section-of-commentary.jpg"
+
+[[template]]
+title     = "Section of Hague"
+slug      = "section-of-hague"
+cat       = "section"
+demo      = "hague"
+widget_id = "h2-section_64a7e2ab54b8433"
+builder   = "sectionlist"
+image     = "section-of-hague.jpg"
+
+[[template]]
+title     = "Section of Commentary"
+slug      = "section-of-commentary-2"
+cat       = "section"
+demo      = "commentary"
+widget_id = "widget56--id--1"
+builder   = "sectionlist"
+image     = "section-of-commentary-2.jpg"
+
+[[template]]
+title     = "Section of Hague"
+slug      = "section-of-hague-2"
+cat       = "section"
+demo      = "hague"
+widget_id = "h2-section_64a7e2ab54b8411"
+builder   = "sectionlist"
+image     = "section-of-hague-2.jpg"
+
+[[template]]
+title     = "Section of Newspaper"
+slug      = "section-of-newspaper"
+cat       = "section"
+demo      = "newspaper2"
+widget_id = "h2-h__section_65774453276c2_1"
+builder   = "sectionlist"
+image     = "section-of-newspaper.jpg"
+
+[[template]]
+title     = "Section of Cambridge"
+slug      = "section-of-cambridge"
+cat       = "section"
+demo      = "cambridge"
+widget_id = "widget56--id--12"
+builder   = "sectionlist"
+image     = "section-of-cambridge.jpg"
+
+[[template]]
+title     = "Section of New York"
+slug      = "section-of-new-york-2"
+cat       = "section"
+demo      = "newyork"
+widget_id = "widget56--id--38"
+builder   = "sectionlist"
+image     = "section-of-new-york-2.jpg"
+
+[[template]]
+title     = "Section of New York"
+slug      = "section-of-new-york-3"
+cat       = "section"
+demo      = "newyork"
+widget_id = "h2-h__section_65099b118e019_1"
+builder   = "sectionlist"
+image     = "section-of-new-york-3.jpg"
+
+[[template]]
+title     = "Section of New York"
+slug      = "section-of-new-york-4"
+cat       = "section"
+demo      = "newyork"
+widget_id = "h2-section_64b94fb79a14611"
+builder   = "sectionlist"
+image     = "section-of-new-york-4.jpg"
+
+[[template]]
+title     = "Section of New York"
+slug      = "section-of-new-york-5"
+cat       = "section"
+demo      = "newyork"
+widget_id = "widget56--id--5"
+builder   = "sectionlist"
+image     = "section-of-new-york-5.jpg"
+
+[[template]]
+title     = "Section of Cambridge"
+slug      = "section-of-cambridge-2"
+cat       = "section"
+demo      = "cambridge"
+widget_id = "widget56--id--6"
+builder   = "sectionlist"
+image     = "section-of-cambridge-2.jpg"
+
+[[template]]
+title     = "Section of Cambridge"
+slug      = "section-of-cambridge-3"
+cat       = "section"
+demo      = "cambridge"
+widget_id = "widget56--id--3"
+builder   = "sectionlist"
+image     = "section-of-cambridge-3.jpg"
+
+[[template]]
+title     = "Section of New York"
+slug      = "section-of-new-york-6"
+cat       = "section"
+demo      = "newyork"
+widget_id = "widget56--id--56"
+builder   = "sectionlist"
+image     = "section-of-new-york-6.jpg"
+
+[[template]]
+title     = "Section of Cambridge"
+slug      = "section-of-cambridge-4"
+cat       = "section"
+demo      = "cambridge"
+widget_id = "widget56--id--9"
+builder   = "sectionlist"
+image     = "section-of-cambridge-4.jpg"
+
+[[template]]
+title     = "Section of Cambridge"
+slug      = "section-of-cambridge-5"
+cat       = "section"
+demo      = "cambridge"
+widget_id = "widget56--id--1"
+builder   = "sectionlist"
+image     = "section-of-cambridge-5.jpg"
+
+[[template]]
+title     = "Section of Newspaper"
+slug      = "section-of-newspaper-2"
+cat       = "section"
+demo      = "newspaper2"
+widget_id = "h2-h__section_6577436f531e5_1"
+builder   = "sectionlist"
+image     = "section-of-newspaper-2.jpg"
+
+[[template]]
+title     = "Section of Newspaper"
+slug      = "section-of-newspaper-3"
+cat       = "section"
+demo      = "newspaper2"
+widget_id = "h2-h__section_64be937e5e4a9_20"
+builder   = "sectionlist"
+image     = "section-of-newspaper-3.jpg"
+
+[[template]]
+title     = "Section of Times Writer"
+slug      = "section-of-times-writer"
+cat       = "section"
+demo      = "times"
+widget_id = "h2-section_64a7e2ab54b8433"
+builder   = "sectionlist"
+image     = "section-of-times-writer.jpg"
+
+[[template]]
+title     = "Section of Times Writer"
+slug      = "section-of-times-writer-2"
+cat       = "section"
+demo      = "times"
+widget_id = "h2-section_64a7e2ab54b8422"
+builder   = "sectionlist"
+image     = "section-of-times-writer-2.jpg"
+
+[[template]]
+title     = "Section of Times Writer"
+slug      = "section-of-times-writer-3"
+cat       = "section"
+demo      = "times"
+widget_id = "h2-section_64a7e2ab54b8411"
+builder   = "sectionlist"
+image     = "section-of-times-writer-3.jpg"

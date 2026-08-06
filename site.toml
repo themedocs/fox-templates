@@ -1,0 +1,15 @@
+title       = "Fox templates"
+tagline     = "Ready-made sections and widgets for The Fox theme"
+accent      = "#c2410c"
+
+# Origin only — page URLs already carry the path prefix.
+base_url    = "https://themedocs.github.io"
+path_prefix = "/fox-templates/"
+home_url    = "https://themedocs.github.io/"
+docs_url    = "https://themedocs.github.io/fox/"
+import_url  = "https://themedocs.github.io/fox/page-builder/builder/#import-widget"
+
+# Where the live demos are served from. Every preview link is built from this
+# plus the template's demo slug; the export files themselves are committed, so
+# this host going away costs previews only, not downloads.
+demo_base   = "https://fox.themepreview.site/"
