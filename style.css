@@ -52,7 +52,6 @@ h1{font-size:2em;line-height:1.25;margin:0 0 .4em;letter-spacing:-.01em}
 .t .dl a{border:1px solid #e3e3e3;padding:.2em .7em;display:inline-block;color:#444}
 .t .dl a:hover{border-color:var(--a);color:#000;text-decoration:none}
 
-.foot{border-top:1px solid #eee;padding:1.4em;text-align:center;font-size:.85em;color:#999}
 
 /* mobile ----------------------------------------------------------------- */
 @media(max-width:72em){.grid{column-count:2}}

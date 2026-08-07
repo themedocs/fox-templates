@@ -193,7 +193,6 @@ def shell(site, *, title, description, url, body, nav, crumbs, trail, css):
         + f"<main id=main>{crumbs}{body}</main>"
         + nav
         + "</div>"
-        + f'<footer class=foot><a href="{site["home_url"]}">All theme docs</a></footer>'
         + "</body></html>"
     )
 
