@@ -13,3 +13,6 @@ import_url  = "https://themedocs.github.io/fox/page-builder/builder/#import-widg
 # plus the template's demo slug; the export files themselves are committed, so
 # this host going away costs previews only, not downloads.
 demo_base   = "https://fox.themepreview.site/"
+
+# Google Analytics 4 — one property covers every path under themedocs.github.io.
+ga_id       = "G-YC7YN7JPV8"

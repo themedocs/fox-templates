@@ -4,9 +4,9 @@ Fox templates directory — static site builder.
 
     python3 build.py     templates.toml -> docs/
 
-Sibling of the theme docs builders: plain HTML, no runtime, no JS, no webfonts,
-stylesheet inlined, so a page is a single request. No dependencies beyond the
-standard library.
+Sibling of the theme docs builders: plain HTML, no webfonts, stylesheet inlined,
+and the only script is the analytics tag, so a page is a single blocking request.
+No dependencies beyond the standard library.
 
 The 111 exported *.json files and their screenshots live under docs/ and are the
 one thing a rebuild does not touch — a template is a committed file, not a call
@@ -140,6 +140,18 @@ def breadcrumb_ld(base_url, trail):
     )
 
 
+def analytics(ga_id):
+    """Google Analytics tag. Empty string when site.toml carries no ga_id."""
+    if not ga_id:
+        return ""
+    return (
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga_id}"></script>'
+        "<script>window.dataLayer=window.dataLayer||[];"
+        "function gtag(){dataLayer.push(arguments);}"
+        f"gtag('js',new Date());gtag('config','{ga_id}');</script>"
+    )
+
+
 def shell(site, *, title, description, url, body, nav, crumbs, trail, css):
     base, prefix = site["base_url"], site["path_prefix"]
     head = [
@@ -156,6 +168,7 @@ def shell(site, *, title, description, url, body, nav, crumbs, trail, css):
         '<meta name="twitter:card" content="summary">',
         f'<style>:root{{--a:{site["accent"]}}}{css}</style>',
         f'<script type="application/ld+json">{breadcrumb_ld(base, trail)}</script>',
+        analytics(site.get("ga_id")),
     ]
     links = "".join(
         f'<a href="{site[key]}"{rel}>{label}</a>'
