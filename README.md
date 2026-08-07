@@ -3,9 +3,9 @@
 The template directory for The Fox theme — published at
 <https://themedocs.github.io/fox-templates/>.
 
-Migrated off the WordPress site at `fox-studio.withemes.com` (2026-08-06). The
-exported `*.json` files are committed here, so a download no longer depends on
-the demo multisite being up.
+Migrated off the old WordPress template site (2026-08-06). The exported `*.json`
+files are committed here, so a download no longer depends on the demo multisite
+being up.
 
 ## Layout
 
