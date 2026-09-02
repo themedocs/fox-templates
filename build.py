@@ -12,8 +12,9 @@ The 111 exported *.json files and their screenshots live under docs/ and are the
 one thing a rebuild does not touch — a template is a committed file, not a call
 out to the demo site. Only the preview links still point at the live demos.
 
-GitHub Pages serves the docs/ folder on the default branch, which is why the
-build output is committed rather than built by CI.
+Cloudflare Pages serves the docs/ folder by direct upload (see
+../deploy-fox-templates.py), which is why the build output is committed
+rather than built by CI.
 """
 
 import html
@@ -160,6 +161,10 @@ def shell(site, *, title, description, url, body, nav, crumbs, trail, css):
         f"<title>{html.escape(title)}</title>",
         f'<meta name=description content="{html.escape(description)}">',
         f'<link rel=canonical href="{base}{url}">',
+        f'<link rel=icon href="{prefix}assets/favicon.ico" sizes=any>',
+        f'<link rel=icon type="image/png" sizes="32x32" href="{prefix}assets/favicon-32.png">',
+        f'<link rel=icon type="image/png" sizes="16x16" href="{prefix}assets/favicon-16.png">',
+        f'<link rel=apple-touch-icon href="{prefix}assets/apple-touch-icon.png">',
         f'<meta property="og:title" content="{html.escape(title)}">',
         f'<meta property="og:url" content="{base}{url}">',
         '<meta property="og:type" content="website">',
@@ -310,6 +315,10 @@ def build():
         sitemap.append(f"<url><loc>{base}{url}</loc></url>")
     sitemap.append("</urlset>")
     (BUILD / "sitemap.xml").write_text("".join(sitemap), encoding="utf-8")
+
+    (BUILD / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\n\nSitemap: {base}{prefix}sitemap.xml\n",
+        encoding="utf-8")
 
     total = sum(f.stat().st_size for f in BUILD.rglob("*") if f.is_file())
     print(f"  {len(urls)} pages · {len(items)} templates · "

@@ -3,16 +3,16 @@ tagline     = "Ready-made sections and widgets for The Fox theme"
 accent      = "#c2410c"
 
 # Origin only — page URLs already carry the path prefix.
-base_url    = "https://themedocs.github.io"
-path_prefix = "/fox-templates/"
-home_url    = "https://themedocs.github.io/"
-docs_url    = "https://themedocs.github.io/fox/"
-import_url  = "https://themedocs.github.io/fox/page-builder/builder/#import-widget"
+base_url    = "https://fox-templates.heronwp.com"
+path_prefix = "/"
+home_url    = "https://heronwp.com/"
+docs_url    = "https://docs.heronwp.com/fox/"
+import_url  = "https://docs.heronwp.com/fox/page-builder/builder/#import-widget"
 
 # Where the live demos are served from. Every preview link is built from this
 # plus the template's demo slug; the export files themselves are committed, so
 # this host going away costs previews only, not downloads.
 demo_base   = "https://fox.themepreview.site/"
 
-# Google Analytics 4 — one property covers every path under themedocs.github.io.
-ga_id       = "G-YC7YN7JPV8"
+# Google Analytics 4 — its own property, one host.
+ga_id       = "G-38FFRKQ33B"
