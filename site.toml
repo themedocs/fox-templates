@@ -12,7 +12,7 @@ import_url  = "https://docs.heronwp.com/fox/page-builder/builder/#import-widget"
 # Where the live demos are served from. Every preview link is built from this
 # plus the template's demo slug; the export files themselves are committed, so
 # this host going away costs previews only, not downloads.
-demo_base   = "https://fox.themepreview.site/"
+demo_base   = "https://fox.heronwp.com/"
 
 # Google Analytics 4 — its own property, one host.
 ga_id       = "G-38FFRKQ33B"

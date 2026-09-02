@@ -56,7 +56,7 @@ and add the matching `[[template]]` block to `templates.toml`. `widget_id` and
 
 ## Preview links
 
-Each card links to `https://fox.themepreview.site/<demo>/?builder_used=…&widget_id=…`.
+Each card links to `https://fox.heronwp.com/<demo>/?builder_used=…&widget_id=…`.
 The query pair used to render that one widget on its own, but Fox Monster's
 preview code was never ported to Fox 7.x, so the link currently opens the whole
 demo page. The pair is kept so the links come right again if it is restored.
